@@ -1,0 +1,44 @@
+.video-thumbnail{
+   width:326px;
+   height:183px;
+
+}
+.video-thumbnail img {
+    width:326px;
+    height: 183px;
+   object-fit: cover;
+   border-radius: 10px;
+}
+.video-info{
+    width:326px;
+    display:grid;
+    grid-template-columns: 60px 250px;
+    
+}
+.col1 {
+   
+    height: 100px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.channel-logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.video-title{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.channel-name,views{
+    font-weight: lighter;
+}
+.grid{
+   display: grid;
+   grid-template-columns: 335px 335px 335px 335px;
+   padding-left: 50px;
+   padding-top: 20px;
+   row-gap: 10px;
+}
